@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #87ceeb, #f0f8ff);
+  color: #333;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.weather-card {
+  background: linear-gradient(to right, #ac5f85, #bd6d23);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.current-date {
+  font-size: 1.2rem;
+  color: #c01f1f;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+
+.weather-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.weather-details {
+  margin-top: 10px;
+}
+
+.forecast-container {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.forecast-card {
+  background-color: #1fa37b;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 80px;
+}
+
+.forecast-card img {
+  width: 50px;
+  height: 50px;
+}
